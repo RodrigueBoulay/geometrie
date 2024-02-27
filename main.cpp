@@ -6,9 +6,9 @@ using namespace std;
 
 int main() {
     // Création de quelques points
-    Point p1(1.0f, 2.0f);
-    Point p2(3.0f, 4.0f);
-    Point p3(1.0f, 2.0f); // Pour tester l'égalité
+    Point p1(1.0, 2.0);
+    Point p2(3.0, 4.0);
+    Point p3(1.0, 2.0); // Pour tester l'égalité
 
     // Affichage des points
     cout << "Point p1 : " << p1 << endl;

@@ -14,3 +14,11 @@ std::ostream& operator<<(std::ostream &flux, const Point &point) {
 bool operator==(Point &a, Point &b) {
     return a.m_x == b.m_x && a.m_y == b.m_y;
 }
+
+float Point::getX(){
+    return m_x;
+}
+
+float Point::getY() {
+    return m_y;
+}
