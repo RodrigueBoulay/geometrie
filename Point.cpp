@@ -7,8 +7,7 @@
 Point::Point(float x, float y) : m_x(x), m_y(y) {}
 
 std::ostream& operator<<(std::ostream &flux, const Point &point) {
-    flux << "Point (" << point.m_x << " ; " << point.m_y << ")";
-    return flux;
+    return flux << "Point (" << point.m_x << " ; " << point.m_y << ")";
 }
 
 bool operator==(Point &a, Point &b) {

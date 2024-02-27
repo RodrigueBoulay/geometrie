@@ -37,3 +37,7 @@
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/cmake-build-debug/CMakeFiles/geometrie.dir/main.cpp.obj
+/cmake-build-debug/CMakeFiles/geometrie.dir/Point.cpp.obj
+/cmake-build-debug/CMakeFiles/geometrie.dir/Segment.cpp.obj
+/cmake-build-debug/geometrie.exe

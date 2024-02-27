@@ -11,6 +11,13 @@ std::ostream& operator<<(std::ostream &flux, const Segment &segment) {
     return flux;
 }
 
+bool operator==(Segment &a, Segment &b) {
+    // A compléter
+    return 0;
+}
+
+
+/*
 float Segment::longueur() {
     float dx = m_p2.getX() - m_p1.getX();
     float dy = m_p2.getY() - m_p1.getY();
@@ -26,7 +33,4 @@ Point Segment::milieu() {
 bool operator==(Segment &a, Segment &b) {
     return a.longueur() == b.longueur();
 }
-
-float Segment::sqrt(float d) {
-    return 0;
-}
+*/

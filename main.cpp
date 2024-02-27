@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cassert>
 #include "Point.h"
 #include "Segment.h"
 
@@ -15,15 +16,18 @@ int main() {
     cout << "Point p2 : " << p2 << endl;
 
     // Test d'égalité entre p1 et p3
+    assert(p1 == p3);
     cout << "p1 == p3 ? " << (p1 == p3 ? "true" : "false") << endl;
 
     // Création de quelques segments
     Segment s1(p1, p2);
     Segment s2(p1, p3);
+    Segment s3(p2, p3);
 
     // Affichage des segments
     cout << "Segment s1 : " << s1 << endl;
     cout << "Segment s2 : " << s2 << endl;
+    cout << "Segment s3 : " << s3 << endl;
 
     // Calcul et affichage des longueurs des segments
     cout << "Longueur de s1 : " << s1.longueur() << endl;
